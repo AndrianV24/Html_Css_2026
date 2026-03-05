@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация и Вход</title>
+</head>
+<body style="font-family: Arial, sans-serif; font-size: 22px; margin: 0; padding: 20px;">
+
+    <header>
+        <img src="pic.png" alt="Лого" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; vertical-align: middle;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html" style="color: black; text-decoration: none;">Начало</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="courses.html" style="color: black; text-decoration: none;">Курсове</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contacts.html" style="color: black; text-decoration: none;">Контакти</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="auth.html" style="color: black; text-decoration: none;">Регистрация и вход</a>
+    </header>
+
+    <br><br>
+
+    <main style="min-height: 70vh;">
+        <h1 style="text-align: center;">Регистрация и Вход</h1>
+        <br>
+
+        <div style="text-align: center;">
+
+            <div style="display: inline-block; width: 40%; vertical-align: top; border: 2px solid black; padding: 20px; margin-right: 5%; text-align: left;">
+                <h2>Вход</h2>
+                <form action="#" method="POST">
+                    <label for="login-email">Имейл:</label><br>
+                    <input type="email" id="login-email" name="login-email" style="font-size: 20px; width: 90%; margin-bottom: 15px;" required><br>
+
+                    <label for="login-password">Парола:</label><br>
+                    <input type="password" id="login-password" name="login-password" style="font-size: 20px; width: 90%; margin-bottom: 15px;" required><br>
+
+                    <button type="submit" style="font-size: 20px; padding: 5px 15px;">Влез</button>
+                </form>
+            </div>
+
+            <div style="display: inline-block; width: 40%; vertical-align: top; border: 2px solid black; padding: 20px; text-align: left;">
+                <h2>Регистрация</h2>
+                <form action="#" method="POST">
+                    <label for="reg-names">Две имена:</label><br>
+                    <input type="text" id="reg-names" name="reg-names" style="font-size: 20px; width: 90%; margin-bottom: 15px;" required><br>
+
+                    <label for="reg-email">Имейл:</label><br>
+                    <input type="email" id="reg-email" name="reg-email" style="font-size: 20px; width: 90%; margin-bottom: 15px;" required><br>
+
+                    <label for="reg-password">Парола:</label><br>
+                    <input type="password" id="reg-password" name="reg-password" style="font-size: 20px; width: 90%; margin-bottom: 15px;" required><br>
+
+                    <button type="submit" style="font-size: 20px; padding: 5px 15px;">Регистрирай се</button>
+                </form>
+            </div>
+
+        </div>
+
+        <br><br>
+        
+        <div style="text-align: center;">
+            <a href="index.html">
+                <button style="font-size: 22px; padding: 10px 20px; cursor: pointer;">Към Home Page</button>
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Център за обучение по софтуерно инженерство.</p>
+    </footer>
+</body>
+</html>
