@@ -3,42 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Център за обучение</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-size: 24px; font-family: sans-serif;">
+<body>
 
     <header>
-        <img src="./Resources/pic.png" alt="Лого" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; vertical-align: middle;">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="index.html" style="color: black; text-decoration: none;">Начало</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="courses.html" style="color: black; text-decoration: none;">Курсове</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="contacts.html" style="color: black; text-decoration: none;">Контакти</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="auth.html" style="color: black; text-decoration: none;">Регистрация и вход</a>
+        <img src="./Resources/pic.png" alt="Лого" class="logo">
+        <nav>
+            <a href="index.html">Начало</a>
+            <a href="courses.html">Курсове</a>
+            <a href="contacts.html">Контакти</a>
+            <a href="auth.html">Регистрация и вход</a>
+        </nav>
     </header>
 
-    <br><br>
-
     <main>
-        <h1>Център за обучение по софтуерно инженерство</h1>
-        <h2>Започни работа в ИТ сферата!</h2>
-        
-        <ul>
-            <li>Практическо обучение в малки групи</li>
-            <li>Опитни преподаватели</li>
-            <li>Сертификат</li>
-        </ul>
-        
-        <br>
-        
-        <img src="./Resources/software engineering.jpg" alt="Обучение по софтуерно инженерство" style="width: 30%;">
-        
-        <br><br>
-        
-        <a href="courses.html">
-            <button style="font-size: 24px; padding: 10px 20px;">Предстоящи курсове</button>
-        </a>
+        <div class="hero-layout">
+            <div class="hero-text">
+                <h1>Център за обучение по софтуерно инженерство</h1>
+                <h2>Започни работа в ИТ сферата!</h2>
+                <ul>
+                    <li>Практическо обучение в малки групи</li>
+                    <li>Опитни преподаватели</li>
+                    <li>Сертификат</li>
+                </ul>
+                <a href="courses.html" class="btn">Предстоящи курсове</a>
+            </div>
+            <img src="./Resources/software engineering.jpg" alt="Обучение по софтуерно инженерство" class="hero-image">
+        </div>
     </main>
-
-    <br><br>
 
     <footer>
         <p>&copy; 2026 Център за обучение по софтуерно инженерство. Всички права запазени.</p>
